@@ -1,0 +1,167 @@
+.btn{
+    background-color: antiquewhite;
+    height: 30px;
+    padding: 0 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.child-container > h3 , button{
+    margin-top: 20px;
+}
+.child-container > div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    background-color: #4481eb;
+    margin-top: 33px;
+    width: 80%;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+li:hover {
+    background-color: #92a5c5;
+    transition: 0.5s;
+}
+.popup{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    position: absolute;
+}
+.popup> div{
+    display: flex;
+    margin-right: 40px;
+    position: relative;
+    top: 22%;
+    left: 40%;
+}
+.popupbtn{
+    margin: 5px;
+    background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    border: none;
+    color: aliceblue;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.popup h5{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(54, 52, 52);
+}
+.popup h2{
+ margin-left: 20px;
+ color: rgb(54, 52, 52);
+}
+
+  section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #3586ff;
+    overflow: hidden;
+  }
+  section .air{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 1000px 100px
+  }
+  section .air.air1{
+    animation: wave 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  section .air.air2{
+    animation: wave2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  section .air.air3{
+    animation: wave 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+  }
+  section .air.air4{
+    animation: wave2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+  }
+  @keyframes wave{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: 1000px; 
+    }
+  }
+  @keyframes wave2{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: -1000px; 
+    }
+  }
+  .child-container {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15%;
+  }
+  h2{
+    color: #000000cb;
+    font-family: 'Poppins', sans-serif; 
+  }
+  @media only screen and (max-width: 700px) {
+   .child-h2 > p{
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) {
+
+  ul{
+    padding-left: 0px;
+  }    .main-login-container::before{
+    content: "";
+    position: absolute;
+    height: 1460px;
+    width: 2000px;
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+    z-index: -1;
+}.popup{
+ width: 299px;
+}.popup> div {
+  display: flex;
+  position: relative;
+  top: 22%;
+  left: 13%;
+
+}}
+.child-container{
+  margin-top: 0%;
+}
